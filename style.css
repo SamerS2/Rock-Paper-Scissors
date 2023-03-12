@@ -1,0 +1,91 @@
+* {
+    background-color: ghostwhite;
+}
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    outline-style: ridge;
+    background-color: lightsteelblue;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    outline-style: ridge;
+    background-color: lightsteelblue;
+}
+#counter {
+    height: 20px;
+    width: 35px;
+    
+}
+#playerName{
+    margin-right: 2em;
+    padding-right: 210px;
+    background-color: lightsteelblue;
+    
+}
+#botName{
+    padding-right: 20px;
+    background-color: lightsteelblue;
+}
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#playerImage {
+    width: 200px;
+    height: 200px;
+    outline-style: groove;
+    margin-top: 5px; 
+}
+#botImage {
+    width: 200px;
+    height: 200px;
+    outline-style: groove;
+    margin-top: 5px; 
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+#scoreBox{
+    display: flex;
+    flex-direction: column;
+}
+#score {
+    height: 35px;
+    padding-left: 8px;
+    background-color: lightsteelblue;
+    outline-style: ridge;
+}
+#textBox {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100px;
+    outline-style: groove;
+}
+.round {
+    outline-style: groove;
+    padding: .5px;;
+    height: 47px;
+    width: 33px;;
+}
+#startGame {
+    margin-top: 35px;
+}
+button:active {
+    box-shadow: 0 0 0 white;
+    margin: 6px 10px 2px 8px;
+    background-color: aqua;
+}
+button {
+    border-radius: 25px;
+    display: block;
+} 
